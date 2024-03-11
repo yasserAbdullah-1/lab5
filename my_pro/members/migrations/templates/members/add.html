@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>add</title>
+    </head>
+<body>
+    <h1>enter name and password </h1>
+    <form action='{% url 'add' %}'method="post">
+        {{form}}
+    <input type "submit">
+    </form>
+    <a href={%url 'index'%}>view names</a>
+</body>
+</html>

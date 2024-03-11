@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style2.css">
+        <title>show</title>
+    </head>
+<body>
+<ul>
+    {% for name in people%}
+    <li>{{name[0]}}</li>
+    {%endfor%}
+</ul>
+<a href={%url 'add'%}>add new name</a>
+</body>
+</html>
